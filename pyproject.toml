@@ -1,0 +1,12 @@
+[project]
+name = "auth0-exploration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "email-validator>=2.3.0",
+    "fastapi[standard]>=0.128.0",
+    "prisma>=0.15.0",
+    "pydantic>=2.12.5",
+]
